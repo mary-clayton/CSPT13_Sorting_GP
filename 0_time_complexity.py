@@ -46,7 +46,7 @@ def print_animal_pairs(): # O(n ^ 2)
             print(f"{animal_1} - {animal_2}") # O(1)
             
 # Print a list of all possible animal triples
-def print_animal_triples():
+def print_animal_triples(): 
     for animal_1 in animals:
         for animal_2 in animals:
             for animal_3 in animals:
